@@ -1,0 +1,138 @@
+const heroSlides = document.querySelectorAll(".hero-slide");
+const heroDots = document.querySelectorAll(".hero-dot");
+
+let currentHero = 0;
+
+function showHeroSlide(index){
+
+    heroSlides.forEach(slide=>{
+        slide.classList.remove("active");
+    });
+
+    heroDots.forEach(dot=>{
+        dot.classList.remove("active");
+    });
+
+    heroSlides[index].classList.add("active");
+    heroDots[index].classList.add("active");
+}
+
+document.querySelector(".hero-next").addEventListener("click",()=>{
+
+    currentHero++;
+
+    if(currentHero >= heroSlides.length){
+        currentHero = 0;
+    }
+
+    showHeroSlide(currentHero);
+});
+
+document.querySelector(".hero-prev").addEventListener("click",()=>{
+
+    currentHero--;
+
+    if(currentHero < 0){
+        currentHero = heroSlides.length - 1;
+    }
+
+    showHeroSlide(currentHero);
+});
+
+heroDots.forEach((dot,index)=>{
+
+    dot.addEventListener("click",()=>{
+
+        currentHero = index;
+        showHeroSlide(currentHero);
+
+    });
+
+});
+
+setInterval(()=>{
+
+    currentHero++;
+
+    if(currentHero >= heroSlides.length){
+        currentHero = 0;
+    }
+
+    showHeroSlide(currentHero);
+
+},6000);
+
+const testimonialSlides =
+document.querySelectorAll(".testimonial-slide");
+
+const nextBtn =
+document.querySelector(".next-btn");
+
+const prevBtn =
+document.querySelector(".prev-btn");
+
+let currentSlide = 0;
+
+function showSlide(index){
+
+    testimonialSlides.forEach(slide=>{
+        slide.classList.remove("active");
+    });
+
+    testimonialSlides[index].classList.add("active");
+}
+
+nextBtn.addEventListener("click",()=>{
+
+    currentSlide++;
+
+    if(currentSlide >= testimonialSlides.length){
+        currentSlide = 0;
+    }
+
+    showSlide(currentSlide);
+
+});
+
+prevBtn.addEventListener("click",()=>{
+
+    currentSlide--;
+
+    if(currentSlide < 0){
+        currentSlide =
+        testimonialSlides.length - 1;
+    }
+
+    showSlide(currentSlide);
+
+});
+
+/* Auto Slide */
+
+setInterval(()=>{
+
+    currentSlide++;
+
+    if(currentSlide >= testimonialSlides.length){
+        currentSlide = 0;
+    }
+
+    showSlide(currentSlide);
+
+},5000);  
+
+const faqItems =
+document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item=>{
+
+    const question =
+    item.querySelector(".faq-question");
+
+    question.addEventListener("click",()=>{
+
+        item.classList.toggle("active");
+
+    });
+
+});
