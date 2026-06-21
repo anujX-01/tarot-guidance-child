@@ -539,23 +539,14 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
         </div>
 
         <p>
-            Whether you are standing at a crossroads in love,
-            career, relationships, or personal growth, remember
-            that clarity begins when you learn to trust yourself
-            and listen to your inner wisdom.
+            Clarity begins when you trust yourself, understand your present, and recognize the opportunities that lie ahead.
         </p>
 
         <p>
-            Tarot is not about controlling your future. It is
-            about understanding your present, recognizing your
-            opportunities, and making decisions with confidence
-            and awareness.
+            I am honored to guide you on that journey, helping you move forward with confidence, insight, and purpose.
         </p>
 
-        <p>
-            I am honored to walk beside you on that journey and
-            help illuminate the path ahead.
-        </p>
+        
 
         <div class="message-signature">
             — Seraphina
@@ -605,6 +596,10 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Sarah Johnson
             </div>
+             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+        View All Testimonials
+    </a>
+
 
         </div>
 
@@ -624,6 +619,10 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Michael Davis
             </div>
+             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+        View All Testimonials
+    </a>
+
 
         </div>
 
@@ -643,6 +642,10 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Emily Roberts
             </div>
+             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+        View All Testimonials
+    </a>
+
 
         </div>
 

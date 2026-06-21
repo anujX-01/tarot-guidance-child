@@ -182,7 +182,7 @@ get_header();
 
             <div class="about-image-frame">
 
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-page.png"
                     alt="Tarot Reader">
 
             </div>
@@ -260,7 +260,7 @@ get_header();
 
     <div class="services-grid">
 
-       <a href="<?php echo site_url('/services'); ?>" class="service-card">
+       <a href="<?php echo site_url('/service'); ?>" class="service-card">
             <div class="service-top">
 
                 <span class="service-number">
@@ -288,7 +288,7 @@ get_header();
 
         </a>
 
-        <a href="<?php echo site_url('/services'); ?>" class="service-card">
+        <a href="<?php echo site_url('/service'); ?>" class="service-card">
 
             <div class="service-top">
 
@@ -317,7 +317,7 @@ get_header();
 
         </a>
 
-        <a href="<?php echo site_url('/services'); ?>" class="service-card">
+        <a href="<?php echo site_url('/service'); ?>" class="service-card">
 
             <div class="service-top">
 
@@ -346,7 +346,7 @@ get_header();
 
         </a>
 
-        <a href="<?php echo site_url('/services'); ?>" class="service-card">
+        <a href="<?php echo site_url('/service'); ?>" class="service-card">
 
             <div class="service-top">
 
@@ -379,7 +379,7 @@ get_header();
 
     <div class="services-btn-wrapper">
 
-       <a href="<?php echo site_url('/services'); ?>" class="services-btn">
+       <a href="<?php echo site_url('/service'); ?>" class="services-btn">
             View All Services
         </a>
 
@@ -605,6 +605,10 @@ get_header();
                 Sarah Johnson
             </h4>
 
+            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+    View All Testimonials
+</a>
+
         </div>
 
         <!-- Slide 2 -->
@@ -627,6 +631,10 @@ get_header();
                 Michael Smith
             </h4>
 
+            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+    View All Testimonials
+</a>
+
         </div>
 
         <!-- Slide 3 -->
@@ -648,6 +656,10 @@ get_header();
                 Emily Davis
             </h4>
 
+            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+    View All Testimonials
+</a>
+
         </div>
 
         <!-- Navigation -->
@@ -661,6 +673,10 @@ get_header();
         </button>
 
     </div>
+
+    
+
+
 
 </section>
 

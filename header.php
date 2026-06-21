@@ -32,7 +32,7 @@
                 About
             </a>
 
-            <a href="<?php echo site_url('/services'); ?>">
+            <a href="<?php echo site_url('/service'); ?>">
                 Services
             </a>
 
