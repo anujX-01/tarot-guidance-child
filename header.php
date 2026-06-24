@@ -6,51 +6,47 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <header class="site-header">
+    <header class="tarot-header">
 
-    <div class="header-container">
-
-        <!-- Logo -->
+    <div class="tarot-header-inner">
 
         <a href="<?php echo site_url('/'); ?>" class="logo">
 
             <span class="logo-icon">✦</span>
 
-            <span class="logo-text">
-                Celestial Insights
-            </span>
+            <span class="logo-text">Celestial Insights</span>
 
         </a>
 
-        <!-- Navigation -->
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
 
             <a href="<?php echo site_url('/'); ?>">Home</a>
 
-            <a href="<?php echo site_url('/about'); ?>">
-                About
+            <a href="<?php echo site_url('/about'); ?>">About</a>
+
+            <a href="<?php echo site_url('/service'); ?>">Services</a>
+
+            <a href="<?php echo site_url('/tarot-cards'); ?>">
+                Tarot Cards
             </a>
 
-            <a href="<?php echo site_url('/service'); ?>">
-                Services
+            <a href="<?php echo site_url('/testimonial'); ?>">
+                Testimonial
             </a>
 
-            
-
-            <a href="<?php echo site_url('/#contact'); ?>">
-                Contact
+          <a href="<?php echo site_url('/#contact'); ?>">
+              Contact
+           </a>
+  
+            <a href="<?php echo site_url('/booking'); ?>" class="header-btn">
+                Book Reading
             </a>
 
         </nav>
-
-        <!-- CTA -->
-
-        <a href="<?php echo site_url('/booking'); ?>" class="header-btn">
-
-            Book Reading
-
-        </a>
 
     </div>
 

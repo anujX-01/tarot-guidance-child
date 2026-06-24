@@ -1,6 +1,8 @@
 <?php
 
-function tarot_guidance_enqueue_assets() {
+function tarot_guidance_enqueue_assets() { 
+
+
 
     wp_enqueue_style(
         'main-css',
@@ -45,12 +47,10 @@ function tarot_guidance_enqueue_assets() {
 
     }
 
-} 
-
-if ( is_page('testimonial') ) {
+    if ( is_page('testimonial') ) {
 
         wp_enqueue_script(
-            'testimonal-js',
+            'testimonial-js',
             get_stylesheet_directory_uri() . '/assets/js/testimonial.js',
             array(),
             '1.0',
@@ -58,5 +58,42 @@ if ( is_page('testimonial') ) {
         );
 
     } 
+
+     if ( is_page('tarot-cards') ) {
+
+        wp_enqueue_script(
+            'tarot-js',
+            get_stylesheet_directory_uri() . '/assets/js/tarot.js',
+            array(),
+            '1.0',
+            true
+        );
+
+    } 
+
+    if ( is_page('card-detail') ) {
+
+    wp_enqueue_script(
+        'card-detail-js',
+        get_stylesheet_directory_uri() . '/assets/js/cardDetail.js',
+        array(),
+        '1.0',
+        true
+    );
+
+} 
+
+    wp_enqueue_script(
+    'header-js',
+    get_stylesheet_directory_uri() . '/assets/js/header.js',
+    array(),
+    '1.0',
+    true
+);
+
+
+} 
+
+ 
 
 add_action( 'wp_enqueue_scripts', 'tarot_guidance_enqueue_assets' );

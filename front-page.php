@@ -605,7 +605,7 @@ get_header();
                 Sarah Johnson
             </h4>
 
-            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+            <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
     View All Testimonials
 </a>
 
@@ -631,7 +631,7 @@ get_header();
                 Michael Smith
             </h4>
 
-            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+            <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
     View All Testimonials
 </a>
 
@@ -656,7 +656,7 @@ get_header();
                 Emily Davis
             </h4>
 
-            <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+            <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
     View All Testimonials
 </a>
 
