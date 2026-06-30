@@ -10,8 +10,11 @@ get_header();
 
 const imageBasePath =
 "<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tarot-card/";
-
+const cardDetailPage =
+"<?php echo site_url('/tarot-card-detail/'); ?>";
 </script>
+
+
 
  <!-- hero section starting -->
 
@@ -90,7 +93,7 @@ const imageBasePath =
 
     <!-- meaning section starting -->
   
-    <section class="card-meaning-section" id="meaning-section">
+ <section class="card-meaning-section" id="meaning-section">
 
     <div class="meaning-bg-glow meaning-glow-1"></div>
     <div class="meaning-bg-glow meaning-glow-2"></div>
@@ -196,7 +199,7 @@ const imageBasePath =
 
     <!-- Upright vs Reversed section starting  -->
     
-    <section class="upright-reversed-section">
+<section class="upright-reversed-section">
 
     <div class="ur-glow ur-glow-1"></div>
     <div class="ur-glow ur-glow-2"></div>
@@ -308,7 +311,7 @@ const imageBasePath =
 
     <!-- keyword section starting  -->
 
-    <section class="tarot-keywords-section">
+<section class="tarot-keywords-section">
 
     <div class="keywords-glow keywords-glow-1"></div>
     <div class="keywords-glow keywords-glow-2"></div>
@@ -448,7 +451,7 @@ const imageBasePath =
 
     <!-- Love / Career / Spiritual section starting  -->
   
-    <section class="love-career-spiritual-section">
+ <section class="love-career-spiritual-section">
 
     <div class="lcs-glow lcs-glow-1"></div>
     <div class="lcs-glow lcs-glow-2"></div>

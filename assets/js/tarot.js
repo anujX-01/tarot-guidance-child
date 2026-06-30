@@ -146,9 +146,13 @@ tarotCards.forEach(card=>{
                 ${card.description}
             </p>
 
-            <a href="#" class="tarot-card-btn">
-                Read More
-            </a>
+            // <a href="#" class="tarot-card-btn">
+            //     Read More
+            // </a>
+
+             <a href="${cardDetailPage}?card=${card.name.replaceAll(' ','_')}" class="tarot-card-btn">
+                    Read More
+                   </a>
 
         </div>
 
@@ -181,9 +185,9 @@ function displayCards(cards){
                     ${card.description}
                 </p>
 
-                <a href="CardDetail.html?card=${card.name.replaceAll(' ','_')}" class="tarot-card-btn">
+                <a href="${cardDetailPage}?card=${card.name.replaceAll(' ','_')}" class="tarot-card-btn">
                     Read More
-                </a>
+                   </a>
 
             </div>
 

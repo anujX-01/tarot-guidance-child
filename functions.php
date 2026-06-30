@@ -59,7 +59,7 @@ function tarot_guidance_enqueue_assets() {
 
     } 
 
-     if ( is_page('tarot-cards') ) {
+     if ( is_page('tarot-card') ) {
 
         wp_enqueue_script(
             'tarot-js',
@@ -71,7 +71,7 @@ function tarot_guidance_enqueue_assets() {
 
     } 
 
-    if ( is_page('card-detail') ) {
+    if ( is_page('tarot-card-detail') ) {
 
     wp_enqueue_script(
         'card-detail-js',
@@ -90,6 +90,24 @@ function tarot_guidance_enqueue_assets() {
     '1.0',
     true
 );
+
+if ( is_page('booking') ) {
+
+    wp_enqueue_script(
+
+        'booking-js',
+
+        get_stylesheet_directory_uri() . '/assets/js/booking.js',
+
+        array(),
+
+        '1.0',
+
+        true
+
+    );
+
+} 
 
 
 } 

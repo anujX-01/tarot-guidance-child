@@ -14,7 +14,23 @@ get_header();
         <!-- Slide 1 -->
         <div class="hero-slide active">
 
-           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image.png" alt="Tarot Reading">
+           <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image.png" alt="Tarot Reading"> -->
+
+           <!-- <img id="heroImage" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero-section-banner.png" alt="Tarot Reading"> -->
+
+           <picture>
+
+    <source
+        media="(max-width: 768px)"
+        srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero-section-image-mobile.png">
+
+    <img
+        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero-section-banner.png"
+        alt="Tarot Reading"
+        id="heroImage">
+
+</picture>
+
 
             <div class="hero-overlay"></div>
 
@@ -29,7 +45,7 @@ get_header();
                     Embrace Your Path.
                 </h1>
 
-                <p>
+                <p >
                     Gain deeper insight into love, career, relationships
                     and life decisions through personalized tarot readings.
                 </p>
@@ -44,7 +60,7 @@ get_header();
         </div>
 
         <!-- Slide 2 -->
-        <div class="hero-slide">
+        <!-- <div class="hero-slide">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image2.jpg" alt="Tarot Reading">
             <div class="hero-overlay"></div>
 
@@ -70,10 +86,10 @@ get_header();
                 </a>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- Slide 3 -->
-        <div class="hero-slide">
+        <!-- <div class="hero-slide">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image3.jpg" alt="Tarot Reading">
             <div class="hero-overlay"></div>
 
@@ -99,10 +115,10 @@ get_header();
                 </a>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- Slide 4 -->
-        <div class="hero-slide">
+        <!-- <div class="hero-slide">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image4.jpg" alt="Tarot Reading">
             <div class="hero-overlay"></div>
 
@@ -128,27 +144,27 @@ get_header();
                 </a>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- Previous Button -->
-        <button class="hero-arrow hero-prev" aria-label="Previous Slide">
+        <!-- <button class="hero-arrow hero-prev" aria-label="Previous Slide">
             &#10094;
-        </button>
+        </button> -->
 
         <!-- Next Button -->
-        <button class="hero-arrow hero-next" aria-label="Next Slide">
+        <!-- <button class="hero-arrow hero-next" aria-label="Next Slide">
             &#10095;
-        </button>
+        </button> -->
 
         <!-- Dots -->
-        <div class="hero-dots">
+        <!-- <div class="hero-dots">
 
             <span class="hero-dot active"></span>
             <span class="hero-dot"></span>
             <span class="hero-dot"></span>
             <span class="hero-dot"></span>
 
-        </div>
+        </div> -->
 
         <!-- Decorative Elements -->
 
@@ -701,7 +717,7 @@ get_header();
 
     </div>
 
-    <div class="faq-container">
+    <div class="faq-container" id = "faq-section">
 
         <div class="faq-item">
 

@@ -8,7 +8,7 @@ get_header();
 
 <!--  hero section of about page starting  -->
 
-    <section
+ <section
 class="about-hero"
 style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero.png');">
 
@@ -27,7 +27,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
         </span>
 
         <h1>
-            Meet Seraphina,
+            Meet Dr. Sapna Gupta,
             <span>Your Guide Through The Tarot</span>
         </h1>
 
@@ -69,7 +69,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
 
             <h2>
                 Hello, I'm
-                <span>Seraphina</span>
+                <span>Dr. Sapna Gupta</span>
             </h2>
 
             <p>
@@ -549,7 +549,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
         
 
         <div class="message-signature">
-            — Seraphina
+            — Dr. Sapna Gupta
         </div>
 
     </div>
@@ -596,7 +596,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Sarah Johnson
             </div>
-             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+             <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
         View All Testimonials
     </a>
 
@@ -619,7 +619,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Michael Davis
             </div>
-             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+             <a href=<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
         View All Testimonials
     </a>
 
@@ -642,7 +642,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Emily Roberts
             </div>
-             <a href="<?php echo site_url('/testimonials'); ?>" class="testimonial-page-btn">
+             <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
         View All Testimonials
     </a>
 

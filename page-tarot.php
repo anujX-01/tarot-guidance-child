@@ -9,6 +9,12 @@ get_header();
 <script>
 const tarotImagePath =
 "<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tarot-card/";
+
+</script>
+
+<script>
+const cardDetailPage =
+"<?php echo site_url('/tarot-card-detail/'); ?>";
 </script>
 
     <!-- hero section starting -->

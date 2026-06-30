@@ -39,7 +39,7 @@
                 </li>
 
                 <li>
-                    <a href="<?php echo site_url('/services'); ?>">Services</a>
+                    <a href="<?php echo site_url('/service'); ?>">Services</a>
                 </li>
 
                 <li>
@@ -61,7 +61,7 @@
             <ul>
 
                 <li>
-                    <a href="#">FAQ</a>
+                    <a href="#faq-section">FAQ</a>
                 </li>
 
                 <li>

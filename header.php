@@ -30,7 +30,7 @@
 
             <a href="<?php echo site_url('/service'); ?>">Services</a>
 
-            <a href="<?php echo site_url('/tarot-cards'); ?>">
+            <a href="<?php echo site_url('/tarot-card'); ?>">
                 Tarot Cards
             </a>
 

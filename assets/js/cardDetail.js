@@ -8916,8 +8916,11 @@ card.type;
 document.getElementById("heroCardDescription").textContent =
 card.description;
 
+// document.getElementById("heroCardImage").src =
+// card.image;
+
 document.getElementById("heroCardImage").src =
-card.image;
+imageBasePath + card.image; 
 
 document.getElementById("meaning-title").textContent =
 card.meaningTitle;
@@ -9044,6 +9047,8 @@ card.relatedCards.forEach(cardKey => {
 const relatedCard =
 tarotData[cardKey];
 
+
+
 // relatedContainer.innerHTML += `
 // <article class="related-card">
 
@@ -9072,10 +9077,11 @@ relatedContainer.innerHTML += `
 
     <div class="related-card-image">
 
+       
         <img
-            src="${relatedCard.image}"
-            alt="${relatedCard.title}"
-        >
+    src="${imageBasePath + relatedCard.image}"
+    alt="${relatedCard.title}"
+>
 
         <div class="related-card-overlay">
 
@@ -9085,6 +9091,8 @@ relatedContainer.innerHTML += `
             >
                 Explore Card
             </a>
+
+         
 
         </div>
 
