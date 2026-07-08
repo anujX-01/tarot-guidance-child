@@ -893,11 +893,11 @@ get_header();
                     Gain clarity, confidence, and deeper insight into the path ahead.
                 </p>
 
-                <a href="#" class="cta-btn-primary">
+                <a href= "<?php echo site_url('/booking'); ?>" class="cta-btn-primary">
                     Book A Reading
                 </a>
 
-                <a href="#" class="cta-btn-secondary">
+                <a href= "<?php echo site_url('/service'); ?>" class="cta-btn-secondary">
                     Explore Services
                 </a>
 

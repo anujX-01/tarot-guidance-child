@@ -12,7 +12,8 @@ get_header();
      BOOKING PAGE HERO SECTION START
 ========================================= -->
 
-<section class="booking-hero">
+<section class="booking-hero"
+style="--hero-bg:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/booking-page-hero-section.png');">
 
     <div class="booking-hero-overlay"></div>
 
@@ -64,7 +65,7 @@ get_header();
 BENEFITS OF BOOKING SECTION
 ====================================== -->
 
-<section class="booking-benefits">
+<!-- <section class="booking-benefits">
 
     <div class="benefits-bg-orb orb-1"></div>
     <div class="benefits-bg-orb orb-2"></div>
@@ -192,6 +193,158 @@ BENEFITS OF BOOKING SECTION
                 <div class="benefit-icon">
 
                     ✹
+
+                </div>
+
+                <h3>
+
+                    35+ Years Experience
+
+                </h3>
+
+                <p>
+
+                    Benefit from decades of spiritual wisdom,
+                    intuitive practice and trusted guidance.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section> -->
+
+<section class="booking-benefits">
+
+    <div class="benefits-bg-orb orb-1"></div>
+    <div class="benefits-bg-orb orb-2"></div>
+    <div class="benefits-bg-orb orb-3"></div>
+
+    <div class="benefits-wrapper">
+
+        <div class="benefits-heading">
+
+            <span class="benefits-subtitle">
+                WHY BOOK A SESSION
+            </span>
+
+            <h2>
+                Why Clients Choose
+                Tarot Guidance
+            </h2>
+
+            <p>
+
+                Every session is designed to provide meaningful
+                insight, practical clarity and compassionate guidance
+                for life's most important decisions.
+
+            </p>
+
+        </div>
+
+        <div class="benefits-showcase">
+
+            <div class="benefit-box active">
+
+                <div class="benefit-icon">
+
+                    <i class="fas fa-compass"></i>
+
+                </div>
+
+                <h3>
+
+                    Personalized Guidance
+
+                </h3>
+
+                <p>
+
+                    Receive intuitive insights crafted around
+                    your unique circumstances and questions.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-box">
+
+                <div class="benefit-icon">
+
+                    <i class="fas fa-user-shield"></i>
+
+                </div>
+
+                <h3>
+
+                    Safe & Confidential
+
+                </h3>
+
+                <p>
+
+                    Every reading remains completely private,
+                    respectful and judgment free.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-box">
+
+                <div class="benefit-icon">
+
+                    <i class="fas fa-calendar-day"></i>
+
+                </div>
+
+                <h3>
+
+                    Flexible Scheduling
+
+                </h3>
+
+                <p>
+
+                    Select dates and times that align perfectly
+                    with your personal routine.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-box">
+
+                <div class="benefit-icon">
+
+                    <i class="fas fa-globe"></i>
+
+                </div>
+
+                <h3>
+
+                    Worldwide Sessions
+
+                </h3>
+
+                <p>
+
+                    Connect from anywhere through Zoom,
+                    Google Meet or WhatsApp.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-box">
+
+                <div class="benefit-icon">
+
+                    <i class="fas fa-award"></i>
 
                 </div>
 
@@ -737,7 +890,7 @@ how booking works section starting -->
 
 <!-- cancellation policy section starting  -->
 
-<section class="cancellation-policy">
+<!-- <section class="cancellation-policy">
 
     <div class="policy-orb orb-left"></div>
     <div class="policy-orb orb-right"></div>
@@ -874,7 +1027,146 @@ how booking works section starting -->
 
     </div>
 
-</section> 
+</section>  -->
+
+<section class="cancellation-policy">
+
+    <div class="policy-orb orb-left"></div>
+    <div class="policy-orb orb-right"></div>
+
+    <div class="policy-container">
+
+        <div class="policy-heading">
+
+            <span>
+                FLEXIBLE BOOKING
+            </span>
+
+            <h2>
+
+                Cancellation &
+                Rescheduling Policy
+
+            </h2>
+
+            <p>
+
+                Transparent policies designed to respect
+                both your time and our commitment to
+                delivering meaningful guidance.
+
+            </p>
+
+        </div>
+
+        <div class="policy-slider">
+
+            <article class="policy-card active-policy">
+
+                <div class="policy-icon">
+
+                    <i class="fas fa-clock"></i>
+
+                </div>
+
+                <h3>
+
+                    24 Hour Notice
+
+                </h3>
+
+                <p>
+
+                    Sessions cancelled at least
+                    twenty four hours in advance
+                    qualify for rescheduling.
+
+                </p>
+
+            </article>
+
+
+            <article class="policy-card">
+
+                <div class="policy-icon">
+
+                    <i class="fas fa-calendar-check"></i>
+
+                </div>
+
+                <h3>
+
+                    One Free Reschedule
+
+                </h3>
+
+                <p>
+
+                    Every booking includes one
+                    complimentary reschedule
+                    subject to availability.
+
+                </p>
+
+            </article>
+
+
+
+            <article class="policy-card">
+
+                <div class="policy-icon">
+
+                    <i class="fas fa-wallet"></i>
+
+                </div>
+
+                <h3>
+
+                    Refund Requests
+
+                </h3>
+
+                <p>
+
+                    Refunds are processed only
+                    for eligible cancellations
+                    within the policy window.
+
+                </p>
+
+            </article>
+
+
+
+            <article class="policy-card">
+
+                <div class="policy-icon">
+
+                    <i class="fas fa-user-clock"></i>
+
+                </div>
+
+                <h3>
+
+                    Missed Sessions
+
+                </h3>
+
+                <p>
+
+                    Missed appointments without
+                    prior notice are considered
+                    completed sessions.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- FAQ section starting -->
 

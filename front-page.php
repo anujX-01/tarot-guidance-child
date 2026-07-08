@@ -504,6 +504,8 @@ get_header();
 
 </section>
 
+
+
 <!-- why choose me section end -->
 
 <!-- how it work section starting  -->
@@ -702,7 +704,7 @@ get_header();
 
 
 <!-- frequency ask question section starting  -->
- <section class="faq-section">
+ <!-- <section class="faq-section">
 
     <div class="faq-header">
 
@@ -814,7 +816,155 @@ get_header();
 
     </div>
 
+</section> -->
+
+<section class="faq-section">
+
+    <div class="faq-header">
+
+        <span class="faq-tag">
+            FAQ
+        </span>
+
+        <h2>
+
+            Frequently Asked
+
+            <span>Questions</span>
+
+        </h2>
+
+        <p>
+
+            Everything you need to know before booking your session.
+
+        </p>
+
+    </div>
+
+
+    <div class="faq-grid">
+
+        <!-- item -->
+
+        <div class="faq-card">
+
+            <button class="faq-question">
+
+                <span>
+
+                    What are tarot readings?
+
+                </span>
+
+                <div class="faq-icon">
+
+                    +
+
+                </div>
+
+            </button>
+
+            <div class="faq-answer">
+
+                Tarot readings provide guidance about
+                relationships, career, self-growth and
+                future possibilities.
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-card">
+
+            <button class="faq-question">
+
+                <span>
+
+                    Is my reading confidential?
+
+                </span>
+
+                <div class="faq-icon">
+
+                    +
+
+                </div>
+
+            </button>
+
+            <div class="faq-answer">
+
+                Every session remains private,
+                respectful and completely confidential.
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-card">
+
+            <button class="faq-question">
+
+                <span>
+
+                    How long does a session last?
+
+                </span>
+
+                <div class="faq-icon">
+
+                    +
+
+                </div>
+
+            </button>
+
+            <div class="faq-answer">
+
+                Sessions generally last between
+                30 to 60 minutes.
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-card">
+
+            <button class="faq-question">
+
+                <span>
+
+                    Do you offer online readings?
+
+                </span>
+
+                <div class="faq-icon">
+
+                    +
+
+                </div>
+
+            </button>
+
+            <div class="faq-answer">
+
+                Yes.
+
+                Readings are available through
+                Zoom, Google Meet or WhatsApp.
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
+
 <!-- frequency ask question section ending  -->
 
 <!-- CTA section starting -->
@@ -897,7 +1047,7 @@ get_header();
 
                     <div>
                         <h4>Phone</h4>
-                        <p>+91 98765 43210</p>
+                        <p>+91 7665555951</p>
                     </div>
 
                 </div>
@@ -920,8 +1070,12 @@ get_header();
             <div class="social-links">
 
                 <a href="#">f</a>
-                <a href="#">i</a>
-                <a href="#">x</a>
+                 <a href="https://www.instagram.com/sahitam.co/"
+       target="_blank"
+       rel="noopener noreferrer">
+       <i class="fab fa-instagram"></i>
+    </a>
+                <!-- <a href="#">x</a> -->
                 <a href="#">▶</a>
 
             </div>

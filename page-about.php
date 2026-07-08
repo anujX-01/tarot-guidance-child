@@ -619,7 +619,7 @@ style="background-image:linear-gradient(rgba(35,0,45,.25),rgba(15,0,25,.35)),url
             <div class="testimonial-author">
                 — Michael Davis
             </div>
-             <a href=<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
+             <a href="<?php echo site_url('/testimonial'); ?>" class="testimonial-page-btn">
         View All Testimonials
     </a>
 

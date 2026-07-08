@@ -40,7 +40,7 @@ get_header();
                 Explore Services
             </a>
 
-            <a href="booking.html" class="hero-btn-secondary">
+            <a href= "<?php echo site_url('/booking'); ?>" class="hero-btn-secondary">
                 Book Reading
             </a>
 
@@ -167,7 +167,7 @@ get_header();
 <!-- service section ending  -->
 
 <!-- which reading is right for you  -->
-<section class="reading-path-section">
+<!-- <section class="reading-path-section">
 
     <div class="reading-path-header">
 
@@ -273,7 +273,7 @@ get_header();
 
     </div>
 
-</section>
+</section> -->
 
 <!-- which reading is right for you section ending  -->
 

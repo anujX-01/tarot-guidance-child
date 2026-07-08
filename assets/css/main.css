@@ -138,7 +138,7 @@
 } 
 
 
-/* ====================================
+/* /* ====================================
    HERO SECTION CSS
 ==================================== */
 
@@ -235,7 +235,7 @@
     animation:fadeUp 1.2s ease forwards;
 }
 
-.hero-content p{
+.hero-content p{ 
     max-width:550px;
     font-size:1.15rem;
     line-height:1.8;
@@ -1631,7 +1631,7 @@
     align-items:center;
     justify-content:center;
 
-    color:#f7d794;
+    /* color:#f7d794; */
 
     border:2px solid #f7d794;
 
@@ -1647,7 +1647,7 @@
 }
 
 .process-step h3{
-    color:white;
+    color: white;
     margin-bottom:15px;
     font-size:1.5rem;
 }
@@ -2083,14 +2083,20 @@
 
 /* Container */
 
-.faq-container{
+.faq-container{ 
+      display:grid !important;
+
+    grid-template-columns:repeat(2,1fr) !important;
+
+    gap:30px;
     max-width:900px;
     margin:auto;
 }
 
 /* Item */
 
-.faq-item{
+.faq-item{ 
+     width:100%;
     border-bottom:1px solid rgba(247,215,148,.25);
 }
 
@@ -2167,8 +2173,92 @@
 
     .faq-question{
         font-size:1rem;
+    } 
+
+        .faq-container{
+
+        grid-template-columns:1fr !important;
+
     }
+
+
+}  
+
+.faq-item,
+.faq-item:hover,
+.faq-item.active{
+
+    background:transparent !important;
+
+    box-shadow:none !important;
+
 } 
+
+
+.faq-question,
+.faq-question:hover,
+.faq-question:focus,
+.faq-question:active{
+
+    background: transparent !important;
+
+    box-shadow: none !important;
+
+    outline: none !important;
+
+}
+
+.faq-item.active .faq-question{
+
+    background: transparent !important;
+
+}
+
+.faq-item.active{
+
+    background: transparent !important;
+
+}
+
+.faq-item:hover{
+
+    background: transparent !important;
+
+} 
+
+
+.faq-item{
+
+    padding:25px;
+
+    border:1px solid rgba(247,215,148,.25);
+
+    border-radius:30px;
+
+}
+
+.faq-question{
+
+    padding:0;
+
+    min-height:60px;
+
+}
+
+.faq-item.active .faq-question{
+
+    color:white !important;
+
+    opacity:1 !important;
+
+}
+
+.faq-answer{
+
+    padding-top:20px;
+
+} 
+
 /* ==========================
    CTA SECTION
 ========================== */
@@ -2768,7 +2858,7 @@
 
 .wpcf7-spinner{
     display:none;
-} 
+}  */
 
 /* ==========================
    FOOTER
@@ -3003,7 +3093,7 @@
 } 
 
 
-/* ABOUT PAGE CSS */
+/* ABOUT PAGE CSS
 
 
 
@@ -5747,7 +5837,7 @@
 
         justify-content:center;
     }
-} 
+}  */
 /* ==========================
    FOOTER
 ========================== */
@@ -6538,7 +6628,8 @@
 
 .service-point:hover{
 
-    transform:scale(1.1);
+    /* transform:scale(1.1); */
+     scale:1.1;
 }
 
 .service-point:hover h4{
@@ -6655,6 +6746,11 @@
     left:-20px;
 }
 
+
+
+.point-1:hover{
+    transform:translateX(-50%) scale(1.1);
+}
 /* =========================
    ANIMATION
 ========================= */
@@ -6951,8 +7047,15 @@
         rgba(255,255,255,.75);
 
         line-height:1.8;
-    }
+    } 
+    
 } 
+
+/* .point-1 .tooltip{
+    top:110%;
+    left:40%;
+    transform:translateX(-50%);
+}  */
 /* which reading is right for you section css */
 
 .reading-path-section{
@@ -8730,7 +8833,7 @@
     }
 }
 
-
+/* 
 /* ==========================================
    TESTIMONIAL PAGE HERO SECTION
 ========================================== */
@@ -9830,7 +9933,7 @@
    TESTIMONIAL MARQUEE SECTION
 ========================================== */
 
-.testimonial-marquee-section{
+/*  .testimonial-marquee-section{
     padding:120px 0;
     background: #1c1233;
     overflow:hidden;
@@ -9879,11 +9982,11 @@
 .testimonial-header p{
     color:rgba(255,255,255,.8);
     line-height:1.9;
-}
+} */
 
 /* Marquee */
 
-.testimonial-marquee{
+/* .testimonial-marquee{
     display:flex;
     overflow:hidden;
     margin-bottom:30px;
@@ -9902,11 +10005,11 @@
 
 .testimonial-marquee:hover .testimonial-track{
     animation-play-state:paused;
-}
+} */
 
 /* Cards */
 
-.testimonial-card{
+/* .testimonial-card{
     width:420px;
     flex-shrink:0;
 
@@ -9961,11 +10064,11 @@
 
 .testimonial-card span{
     color:rgba(255,255,255,.65);
-}
+} */
 
 /* Animation */
 
-@keyframes marqueeMove{
+/* @keyframes marqueeMove{
 
     from{
         transform:translateX(0);
@@ -9987,11 +10090,11 @@
         transform:translateX(0);
     }
 
-}
+} */
 
 /* Tablet */
 
-@media(max-width:991px){
+/* @media(max-width:991px){
 
     .testimonial-header h2{
         font-size:3rem;
@@ -10001,11 +10104,11 @@
         width:350px;
     }
 
-}
+} */
 
 /* Mobile */
 
-@media(max-width:768px){
+/* @media(max-width:768px){
 
     .testimonial-marquee-section{
         padding:90px 0;
@@ -10024,11 +10127,11 @@
         font-size:.95rem;
     }
 
-}
+} */
 
 /* Small Mobile */
 
-@media(max-width:480px){
+/* @media(max-width:480px){
 
     .testimonial-card{
         width:280px;
@@ -10038,13 +10141,13 @@
         font-size:2rem;
     }
 
-} 
+}  */
 
 /* ==========================================
    PREMIUM FAQ SECTION
 ========================================== */
 
-.premium-faq{
+/* .premium-faq{
     position:relative;
     padding:120px 5%;
     background: #1c1233;
@@ -10074,11 +10177,11 @@
     right:-150px;
     background:rgba(255,255,255,.06);
     animation:floatFaqReverse 10s ease-in-out infinite;
-}
+} */
 
 /* Header */
 
-.faq-header{
+/* .faq-header{
     max-width:850px;
     margin:0 auto 80px;
     text-align:center;
@@ -10113,11 +10216,11 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:25px;
-}
+} */
 
 /* FAQ Card */
 
-.faq-item{
+/* .faq-item{
     background:rgba(255,255,255,.05);
 
     backdrop-filter:blur(18px);
@@ -10646,7 +10749,7 @@
     }
 
 } 
-
+  */ */
 
 /* ==========================================
    TAROT CARDS HERO SECTION
@@ -13734,7 +13837,7 @@
 } 
 
 
-/* booking page css  */
+/* booking page css 
 
 /* =========================================
    BOOKING HERO SECTION
@@ -13748,7 +13851,7 @@
 
     position:relative;
 
-    height: 65vh;
+    height: 80vh;
 
     display:flex;
 
@@ -13762,12 +13865,14 @@
 
     padding:120px 20px;
 
-    background:
+    /* background:
     linear-gradient(
     rgba(39,0,58,.65),
     rgba(39,0,58,.65)
     ),
-    url("booking-page-hero-section.png");
+    url("booking-page-hero-section.png"); */
+
+    background:#1c1233;
 
     background-size:cover;
 
@@ -13778,7 +13883,7 @@
 
 /* WATERMARK EFFECT */
 
-.booking-hero::before{
+.booking-hero::before{ 
 
     content:"";
 
@@ -13786,12 +13891,19 @@
 
     inset:0;
 
-    background:
+    /* background:
     radial-gradient(
     circle at center,
     rgba(247,215,148,.05),
     transparent 65%
-    );
+    ); */ 
+
+    background-image:var(--hero-bg); 
+
+    background-size:60%;
+background-repeat:no-repeat;
+background-position:center;
+opacity:.25;
 
     z-index:1;
 }
@@ -13807,8 +13919,8 @@
     background:
     linear-gradient(
     180deg,
-    rgba(39,0,58,.20),
-    rgba(39,0,58,.25)
+    rgba(39,0,58,.08),
+    rgba(39,0,58,.12)
     );
 
     z-index:1;
@@ -13836,7 +13948,7 @@
 
     letter-spacing:6px;
 
-    font-size:.95rem;
+    font-size: 1.5rem;
 
     margin-bottom:25px;
 
@@ -13850,7 +13962,7 @@
 
     color:white;
 
-    font-size:clamp(3rem,8vw,6.5rem);
+    font-size:clamp(3rem,8vw, 5rem);
 
     line-height:1.08;
 
@@ -17400,3 +17512,4 @@ font-size:1.8rem;
 
 } 
 
+ */

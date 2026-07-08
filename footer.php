@@ -1,132 +1,124 @@
-<footer class="footer">
 
-    <div class="footer-glow"></div>
+
+<footer class="premium-footer">
 
     <div class="footer-container">
 
-        <!-- Brand -->
+        <!-- Email Section -->
 
-        <div class="footer-brand">
+        <!-- <div class="footer-email">
 
-            <h2>
-                Celestial Insights
-            </h2>
+            <p class="footer-email-title">
 
-            <p>
-                Guiding you toward clarity, confidence and
-                deeper understanding through intuitive tarot
-                readings and spiritual insight.
+                Have a Question?
+
             </p>
 
-        </div>
+            <p class="footer-email-subtitle">
 
-        <!-- Navigation -->
+                Send your question and we'll get back to you soon.
 
-        <div class="footer-column">
+            </p>
 
-            <h3>
-                Navigation
-            </h3>
+            <form class="footer-form">
 
-            <ul>
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
 
-                <li>
-                    <a href="<?php echo site_url('/'); ?>">Home</a>
-                </li>
+                <button type="submit">
 
-                <li>
-                    <a href="<?php echo site_url('/about'); ?>">About</a>
-                </li>
+                    SEND
 
-                <li>
-                    <a href="<?php echo site_url('/service'); ?>">Services</a>
-                </li>
+                </button>
 
-                <li>
-                    <a href="<?php echo site_url('/booking'); ?>">Book Now</a>
-                </li>
+            </form>
 
-            </ul>
+        </div> -->
 
-        </div>
 
-        <!-- Quick Links -->
+        <!-- Online Text -->
 
-        <div class="footer-column">
+        <div class="footer-online">
 
-            <h3>
-                Quick Links
-            </h3>
+            <span>
 
-            <ul>
+                We're Online!
 
-                <li>
-                    <a href="#faq-section">FAQ</a>
-                </li>
-
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
+            </span>
 
         </div>
 
-        <!-- Contact -->
 
-        <div class="footer-column">
+        <!-- Follow Us -->
 
-            <h3>
-                Contact</h3>
+        <div class="footer-follow">
 
-            <ul>
-
-                <li>
-                    hello@tarotreader.com
-                </li>
-
-                <li>
-                    +91 98765 43210
-                </li>
-
-                <li>
-                    Online Worldwide
-                </li>
-
-            </ul>
+            FOLLOW US
 
         </div>
 
-    </div>
 
-    <!-- Social -->
+        <!-- Social -->
 
-    <div class="footer-social">
+        <div class="footer-social">
 
-        <a href="#">f</a>
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
 
-        <a href="#">i</a>
+            <a href="#">
+                <i class="fab fa-x-twitter"></i>
+            </a>
 
-        <a href="#">x</a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
 
-        <a href="#">▶</a>
+            <a href="#">
+                <i class="fab fa-pinterest-p"></i>
+            </a>
 
-    </div>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
 
-    <!-- Bottom -->
+            <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
 
-    <div class="footer-bottom">
+        </div>
 
-        © 2026 Celestial Insights Tarot.
-        All Rights Reserved.
+
+        <!-- Links -->
+
+        <div class="footer-links">
+
+            <a href="#">About</a>
+
+            <a href="#">Services</a>
+
+            <a href="#">Booking</a>
+
+            <a href="#">FAQ</a>
+
+            <a href="#">Contact</a>
+
+            <a href="#">Privacy</a>
+
+            <a href="#">Terms</a>
+
+        </div>
+
+
+        <!-- Copyright -->
+
+        <div class="footer-copy">
+
+            © 2026 Celestial Insights · All Rights Reserved
+
+        </div>
 
     </div>
 
